@@ -1,14 +1,36 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    tools:context=".GameActivity" >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
-
-</RelativeLayout>
+    android:layout_height="fill_parent">
+    
+    <uk.ac.rdg.se2ja11.SlavaBezgachev.karstensgame.GameView
+      android:id="@+id/gamearea"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+    
+    <RelativeLayout
+    	android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+         <TextView
+          android:id="@+id/score"
+		  android:text="@string/score_text"
+		  android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="top"
+          android:textColor="#ff0000ff"
+          android:textSize="24sp"
+          android:layout_marginTop="3px"
+          android:layout_centerHorizontal="true"/>
+        <TextView
+          android:id="@+id/text"
+		  android:text="@string/mode_ready"
+		  android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#ff0000ff"
+          android:textSize="20sp"/>
+     </RelativeLayout>
+</FrameLayout>
