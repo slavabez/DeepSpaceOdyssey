@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Игра Карстена</string>
-    <string name="hello_world">Привет, Мир!</string>
-    <string name="menu_settings">Настройки</string>
-    <string name="score_text">Очки:</string>
-    <string name="mode_ready">Режим Готовности!</string>
-    <string name="mode_pause">Пауза</string>
-    <string name="mode_lose">Гейм Оуэр</string>
-    <string name="mode_win">Вин</string>
-    <string name="message_stopped">Остановился</string>
-    <string name="menu_start">Начнем-с</string>
-    <string name="menu_stop">Стопчик</string>
-    <string name="menu_resume">Продолжим?</string>
+    <string name="app_name">Deep Space Odyssey</string>
+    <string name="hello_world">Hello World</string>
+    <string name="menu_settings">Settings</string>
+    <string name="score_text">Points:</string>
+    <string name="mode_ready">Ready Mode!</string>
+    <string name="mode_pause">Pause</string>
+    <string name="mode_lose">Game over</string>
+    <string name="mode_win">Win</string>
+    <string name="message_stopped">Stopped</string>
+    <string name="menu_start">Start?</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_resume">Continue?</string>
 
 </resources>

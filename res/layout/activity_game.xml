@@ -2,7 +2,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     
-    <uk.ac.rdg.se2ja11.SlavaBezgachev.karstensgame.GameView
+    <uk.ac.reading.se2ja11.SlavaBezgachev.deepspaceodyssey.GameView
       android:id="@+id/gamearea"
       android:layout_width="fill_parent"
       android:layout_height="fill_parent"/>
@@ -20,7 +20,7 @@
           android:gravity="top"
           android:textColor="#ff0000ff"
           android:textSize="24sp"
-          android:layout_marginTop="3px"
+          android:layout_marginTop="3dp"
           android:layout_centerHorizontal="true"/>
         <TextView
           android:id="@+id/text"
